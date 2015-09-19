@@ -1,0 +1,29 @@
+<div class="row">
+	<div class="columns small-12 medium-12 large-12">
+		<form name="catwebformform94140" method="post" onsubmit="return checkWholeForm94140(this)" enctype="multipart/form-data" action="http://candlelightplace.web-design-seo-experts.com/FormProcessv2.aspx?WebFormID=75745&amp;OID={module_oid}&amp;OTYPE={module_otype}&amp;EID={module_eid}&amp;CID={module_cid}">
+    <div class="quick-contact">
+    <div class="quick-contact-b">
+    <input type="text" name="FullName" id="FullName" maxlength="255" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Name':this.value;" value="Name" />
+    <input type="text" name="CellPhone" id="CellPhone" maxlength="255" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Phone':this.value;" value="Phone" />
+    <input type="text" name="EmailAddress" id="EmailAddress" maxlength="255" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Email':this.value;" value="Email" />
+    </div>
+    <div class="quick-contact-c">
+    <textarea name="CAT_Custom_348534" id="CAT_Custom_348534" onkeydown="if(this.value.length&gt;=4000)this.value=this.value.substring(0,3999);" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Questions / Comments':this.value;" value="Questions / Comments">Questions / Comments</textarea></div>
+    <div class="thefix"></div>
+    <div class="quick-contact-d">{module_recaptcha}
+    </div>
+    <div class="quick-contact-a">Request More Information<br />
+    <input name="submit" type="submit" class="btn" id="catwebformbutton" target="_blank" onclick="_gaq.push(['_trackPageview', '/outbound/footer-form-submission']);" /></div>
+    <div class="clearboth"></div>
+    </div>
+    {module_ccsecurity}
+    <script type="text/javascript" src="http://candlelightplace.web-design-seo-experts.com/CatalystScripts/ValidationFunctions.js"></script>
+    <script type="text/javascript">
+//<![CDATA[
+var submitcount94140 = 0;function checkWholeForm94140(theForm){var why = "";if (theForm.FullName) why += isEmpty(theForm.FullName.value, "Full Name"); if (theForm.EmailAddress) why += checkEmail(theForm.EmailAddress.value); if (theForm.CellPhone) why += isEmpty(theForm.CellPhone.value, "Cell Phone Number"); if (theForm.CaptchaV2) why += captchaIsInvalid(theForm, "Enter Word Verification in box below", "Please enter the correct Word Verification as seen in the image"); if(why != ""){alert(why);return false;}if(submitcount94140 == 0){submitcount94140++;theForm.submit();return false;}else{alert("Form submission is in progress.");return false;}}
+//]]>
+</script>
+</form>
+		
+	</div>
+</div>

@@ -1,0 +1,139 @@
+<html class="no-js" lang="en">
+
+<head>
+
+	<link src="/css/style-v2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	{module_contentholder,name="head"} {module_contentholder,name="headnav - insider"}
+	<!-- WALL -->
+	<div class="span-wall-sm" style="background: url(http://www.roc-homes.com/images/bg-sub-stone.jpg) 50% 0% repeat-x;">
+		<div class="wall">
+			<div class="sub-header">
+				<div class="sub-header-img-bg">
+					<div class="row">
+						<div class="columns large-12 large-centered">
+							<!--        <img alt="" style="position: absolute; height: 107%; width: 86%; left: 70px; top: -3.5px; z-index: 1;" src="/images/roc_image_border.png" />-->
+							<!-- SLIDER -->
+							<div class="flexslider slide-position hide-for-small-only">
+								<div class="flex-viewport" style="overflow: hidden; position: relative;">
+									<ul class="slides" style="width: 2000%; margin-left: -3724.74332753363px;">
+										<li class="clone" style="width: 835px; height:335px; overflow:hidden; float: left; display: block;"><img alt="" src="/images/new-slides/1.jpg" />
+										</li>
+										<li class="clone" style="width: 835px; height:335px; overflow:hidden; float: left; display: block;"><img alt="" src="/images/new-slides/2.jpg" />
+										</li>
+										<li class="clone" style="width: 835px; height:335px; overflow:hidden; float: left; display: block;"><img alt="" src="/images/new-slides/3.jpg" />
+										</li>
+										<li class="clone" style="width: 835px; height:335px; overflow:hidden; float: left; display: block;"><img alt="" src="/images/new-slides/4.jpg" />
+										</li>
+										<li class="clone" style="width: 835px; height:335px; overflow:hidden; float: left; display: block;"><img alt="" src="/images/new-slides/5.jpg" />
+										</li>
+										<li class="clone" style="width: 835px; height:335px; overflow:hidden; float: left; display: block;"><img alt="" src="/images/new-slides/6.jpg" />
+										</li>
+										<li class="clone" style="width: 835px; height:335px; overflow:hidden; float: left; display: block;"><img alt="" src="/images/new-slides/7.jpg" />
+										</li>
+										<li class="clone" style="width: 835px; height:335px; overflow:hidden; float: left; display: block;"><img alt="" src="/images/new-slides/8.jpg" />
+										</li>
+										<li class="clone" style="width: 835px; height:335px; overflow:hidden; float: left; display: block;"><img alt="" src="/images/new-slides/9.jpg" />
+										</li>
+										<li class="clone" style="width: 835px; height:335px; overflow:hidden; float: left; display: block;"><img alt="" src="/images/new-slides/10.jpg" />
+										</li>
+										<li class="clone" style="width: 835px; height:335px; overflow:hidden; float: left; display: block;"><img alt="" src="/images/new-slides/11.jpg" />
+										</li>
+										<li class="clone" style="width: 835px; height:335px; overflow:hidden; float: left; display: block;"><img alt="" src="/images/new-slides/12.jpg" />
+										</li>
+										<li class="clone" style="width: 835px; height:335px; overflow:hidden; float: left; display: block;"><img alt="" src="/images/new-slides/13.jpg" />
+										</li>
+										<li class="clone" style="width: 835px; height:335px; overflow:hidden; float: left; display: block;"><img alt="" src="/images/new-slides/14.jpg" />
+										</li>
+										<li class="clone" style="width: 835px; height:335px; overflow:hidden; float: left; display: block;"><img alt="" src="/images/new-slides/15.jpg" />
+										</li>
+										<li class="clone" style="width: 835px; height:335px; overflow:hidden; float: left; display: block;"><img alt="" src="/images/new-slides/16.jpg" />
+										</li>
+										<li class="clone" style="width: 835px; height:335px; overflow:hidden; float: left; display: block;"><img alt="" src="/images/new-slides/17.jpg" />
+										</li>
+
+
+
+
+
+<!-- Old Slides -->
+
+                                        	<li class="clone" style="width: 835px; height:335px; overflow:hidden; float: left; display: block;"><img alt="" src="/images/slides/slide1.jpg" />
+										</li>
+
+                                                                                	<li class="clone" style="width: 835px; height:335px; overflow:hidden; float: left; display: block;"><img alt="" src="/images/slides/slide1.jpg" />
+										</li>
+
+                                                                                	<li class="clone" style="width: 835px; height:335px; overflow:hidden; float: left; display: block;"><img alt="" src="/images/slides/slide1.jpg" />
+										</li>
+
+                                                                                	<li class="clone" style="width: 835px; height:335px; overflow:hidden; float: left; display: block;"><img alt="" src="/images/slides/slide1.jpg" />
+										</li>
+
+                                                                                	<li class="clone" style="width: 835px; height:335px; overflow:hidden; float: left; display: block;"><img alt="" src="/images/slides/slide1.jpg" />
+										</li>
+
+
+<!-- Old Slides -->
+
+
+									</ul>
+								</div>
+							</div>
+							<!-- END SLIDER -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END WALL -->
+		<div>
+		</div>
+	</div>
+	<div style="background: #b66b1e;">
+		<div class="row">
+			<div class="large-12 columns">
+				<div class="columns large-4">
+				</div>
+				<div class="columns large-4">
+					<div class="avail_homes">
+						<a href="/new-home-inventory/index.html"><img alt="" style="margin: 5px 20px;" src="/images/AvailableHomesButton.png" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Page Content -->
+		{tag_pagecontent}
+		<!-- END Page Content -->
+		<div class="row" style="background: #ffffff;">
+			<div class="columns large-12" style="padding: 0px;">
+				{module_contentholder,name="QuickContact"}
+			</div>
+		</div>
+	</div>
+	{module_contentholder,name="foot"}
+	<script defer src="/js/jquery.flexslider.js"></script>
+	<script>
+		var $f = jQuery.noConflict();
+		$f(window).load(function () {
+			$f('.flexslider').flexslider({
+				animation: "slide",
+
+				directionNav: false,
+				useCSS: false,
+				controlNav: true, //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
+				keyboardNav: true, //Boolean: Allow slider navigating via keyboard left/right keys
+				mousewheel: false, //Boolean: Allow slider navigating via mousewheel
+				prevText: "Previous", //String: Set the text for the "previous" directionNav item
+				nextText: "Next",
+				slideshowSpeed: 4000
+			});
+		});
+	</script>
+</body>
+
+</html>

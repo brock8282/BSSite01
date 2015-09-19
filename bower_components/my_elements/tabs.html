@@ -1,0 +1,73 @@
+<polymer-element name="my-element">
+ 
+  <template>
+    <style>    
+      #section {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+      }
+      #core-animated-pages {
+      	position: absolute;
+        top: 48px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+      overflow:hidden;
+      }
+      #paper_tabs {
+        color: rgb(255, 255, 255);
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 2px;
+        background-color: #673AB7;
+      }
+      #div1 {
+        background-color: 
+      #009688
+;
+      }
+      #div2 {
+        background-color: #D81B60;
+      }
+      #div3 {
+        background-color: #00BCD4;
+      }
+      #div4 {
+        background-color: #FF9800;
+      }
+    </style>
+    <section  layout vertical is="auto-binding">
+      <paper-tabs selected="{{ selected }}" selectedindex="0" id="paper_tabs" horizontal center layout>
+        <paper-tab id="paper_tab" inline flex center-center horizontal layout active>Polymer</paper-tab>
+        <paper-tab id="paper_tab1" inline flex center-center horizontal layout>is</paper-tab>
+        <paper-tab id="paper_tab2" inline flex center-center horizontal layout>so</paper-tab>
+        <paper-tab id="paper_tab3" inline flex center-center horizontal layout>awesome!</paper-tab>
+      </paper-tabs>
+      <core-animated-pages id="core-animated-pages" transitions="cross-fade-all" selected="{{ selected }}" selectedindex="0" notap id="core_animated_pages" lastselected="1" horizontal layout one flex>
+        <section id="chat" active one flex vertical layout>
+        	<div id="div1" layout vertical center center-justified one flex>This</div>
+        </section>
+        <section id="section4" one flex horizontal layout>
+          <div id="div2" layout vertical center center-justified one flex>IS</div>
+        </section>
+        <section id="section5" one flex horizontal layout>
+          <div id="div3" layout vertical center center-justified one flex>Tab</div>
+        </section>
+        <section id="section6" one flex horizontal layout>
+          <div id="div4" layout vertical center center-justified one flex>POLYMER</div>
+        </section>
+      </core-animated-pages>
+    </section>
+  </template>
+ 
+  <script>
+
+    Polymer({
+      selected: 0
+    });
+
+  </script>
+ 
+</polymer-element>
+
